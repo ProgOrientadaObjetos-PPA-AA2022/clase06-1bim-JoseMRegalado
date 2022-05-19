@@ -34,6 +34,7 @@ public class Ejecutor {
         entrada.nextLine(); // limpiar el buffer 
 
         // Uso de condicionales compuestos
+        
         if (opcion == 1) {
             // Ingreso de datos para el tipo seleccionado
             System.out.println("Ingrese nombre del hospital");
@@ -51,7 +52,7 @@ public class Ejecutor {
                     numeroDeDoctores,
                     presupuestoAnio);
 
-            System.out.printf("Datos Hospital\n"
+            /*System.out.printf("Datos Hospital\n"
                     + "Nombre del hospital: %s\n"
                     + "Ciudad del hospital: %s\n"
                     + "Número de camas: %d\n"
@@ -62,6 +63,8 @@ public class Ejecutor {
                     hosp1.obtenerNumeroCamas(),
                     hosp1.obtenerNumeroDoctores(),
                     hosp1.obtenerPresupuestoAnual());
+*/
+            System.out.printf("%s\n",hosp1);
         } else {
             if (opcion == 2) {
                 // Ingreso de datos para el tipo seleccionado
